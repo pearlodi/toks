@@ -1,6 +1,6 @@
 <template>
   <div>
-  <p>
+  <p class="text-3xl font-bold underline">
   ihi
 
   </p>
