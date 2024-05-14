@@ -26,9 +26,9 @@
                 </div>
               </button>
             </th>
-            <th class="text-left text-gray-500 p-4">NAME</th>
-            <th class="text-left text-gray-500 p-4 w-[230px]">DESCRIPTION</th>
-            <th class="text-left text-gray-500 p-4 flex items-center">
+            <th class="text-left text-[#464F60] p-4">NAME</th>
+            <th class="text-left text-[#464F60] p-4 w-[230px]">DESCRIPTION</th>
+            <th class="text-left text-[#464F60] p-4 flex items-center">
               Status
               <button @click="showStatusPopup = true">
                 <div class="w-3">
@@ -61,10 +61,10 @@
                 </div>
               </div>
             </th>
-            <th class="text-right text-gray-500 p-4">RATE</th>
-            <th class="text-right text-gray-500 p-4">BALANCE</th>
-            <th class="text-right text-gray-500 p-4">DEPOSIT</th>
-            <th class="text-right text-gray-500 pr-8 pl-4 px-4"></th>
+            <th class="text-right text-[#464F60] p-4">RATE</th>
+            <th class="text-right text-[#464F60]">BALANCE</th>
+            <th class="text-right text-[#464F60] p-4">DEPOSIT</th>
+            <th class="text-right text-[#464F60] pr-8 pl-4 px-4"></th>
           </tr>
         </thead>
         <tbody>
@@ -125,8 +125,8 @@
               </span>
             </td>
             <td class="p-2 text-right">
-              <p>{{ formatCurrency(row.rate) }}</p>
-              <p>CAD</p>
+              <p class="text-[#464F60] text-[13px]">{{ formatCurrency(row.rate) }}</p>
+              <p class="text-[#687182] text-[11.6px]">CAD</p>
             </td>
             <td class="p-2 text-right">
               <p
@@ -140,8 +140,8 @@
               <p>CAD</p>
             </td>
             <td class="p-2 text-right pr-8 pl-2 px-2">
-              <p>{{ formatCurrency(row.column7) }}</p>
-              <p>CAD</p>
+               <p class="text-[#464F60] text-[13px]">{{ formatCurrency(row.column7) }}</p>
+              <p class="text-[#687182] text-[11.6px]">CAD</p>
             </td>
             <td class="flex flex-col">
               <button @click="editRow(row)" v-if="!isEditing(row)" class="py-3 text-[blue] font-medium">
