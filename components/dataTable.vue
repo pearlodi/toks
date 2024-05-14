@@ -113,7 +113,7 @@
             </td>
             <td class="p-2">
               <span
-                class="rounded-2xl px-2 py-[1px] font-medium inline-block bg-[#aea6a653]"
+                class="rounded-2xl px-2 py-[1px] font-medium inline-block bg-[#aea6a653] text-[12px]"
                 :class="{
                   'text-[##D12953] bg-[#FAF0F3]': row.status === 'Due',
                   'text-[#14804A] bg-[#E1FCEF]': row.status === 'Paid',
