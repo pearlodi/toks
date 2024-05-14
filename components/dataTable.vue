@@ -89,7 +89,7 @@
                 </div>
               </div>
               <div class="mt-1">
-                  <p v-if="!isEditing(row)">
+                  <p v-if="!isEditing(row)" class="text-[#687182] font-normal text-[12px]" >
                     {{ row.phoneNumber }}
                   </p>
                   <input
