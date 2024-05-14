@@ -35,7 +35,7 @@
     <div>
       <div class="w-[180px]">
         <div
-          class="flex justify-between items-center mt-4 bg-[#80808070] w-full p-2 border-b-4 border-b-[#FFD701]"
+          class="flex justify-between items-center mt-4 bg-[#80808070] w-full p-2 border-b-2 border-b-[#FFD701]"
         >
           <p class="text-sm ml-2">Source</p>
           <div class="w-4">
