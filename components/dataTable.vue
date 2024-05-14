@@ -29,7 +29,7 @@
             <th class="text-left text-[#464F60] p-4">NAME</th>
             <th class="text-left text-[#464F60] p-4 w-[230px]">DESCRIPTION</th>
             <th class="text-left text-[#464F60] p-4 flex items-center">
-              Status
+              STATUS
               <button @click="showStatusPopup = true">
                 <div class="w-3">
                   <img
