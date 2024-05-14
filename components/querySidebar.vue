@@ -7,7 +7,7 @@
       </div>
     </div>
     <div>
-      <div class="flex  items-center mt-4 bg-[#80808070] w-full p-2 border-b-4 border-b-yellow-300">
+      <div class="flex  items-center mt-4 bg-[#80808070] w-full p-2 border-b-2 border-b-[##FFD701]">
         <div class="w-4">
         <img src="../assets/images/sheets.png" alt="arrow" class="w-full" />
       </div>
