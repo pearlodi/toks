@@ -39,7 +39,7 @@
         >
           <p class="text-sm ml-2">Source</p>
           <div class="w-4">
-            <img src="../assets/images/copy.png" alt="arrow" class="w-full" />
+            <img src="../assets/images/setting.png" alt="arrow" class="w-full" />
           </div>
         </div>
         <div class="border border-gray-200 h-[250px]">
@@ -48,7 +48,7 @@
         >
           <p class="text-sm ml-2">Navigation</p>
           <div class="w-4">
-            <img src="../assets/images/copy.png" alt="arrow" class="w-full" />
+            <img src="../assets/images/setting.png" alt="arrow" class="w-full" />
           </div>
         </div>
         <div
@@ -56,7 +56,7 @@
         >
           <p class="text-sm ml-2">Promoted Headers</p>
           <div class="w-4">
-            <img src="../assets/images/copy.png" alt="arrow" class="w-full" />
+            <img src="../assets/images/setting.png" alt="arrow" class="w-full" />
           </div>
         </div>
         <div
@@ -64,7 +64,7 @@
         >
           <p class="text-sm ml-2">Changed Type</p>
           <div class="w-4">
-            <img src="../assets/images/copy.png" alt="arrow" class="w-full" />
+            <img src="../assets/images/setting.png" alt="arrow" class="w-full" />
           </div>
         </div>
         </div>

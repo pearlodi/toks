@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Tools />
+    <!-- <Tools /> -->
     <div >
       <DataTable  />
       <Footer />

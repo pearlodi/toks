@@ -27,7 +27,7 @@
               </button>
             </th>
             <th class="text-left text-gray-500 p-4">Name</th>
-            <th class="text-left text-gray-500 p-4">Description</th>
+            <th class="text-left text-gray-500 p-4 w-[230px]">Description</th>
             <th class="text-left text-gray-500 p-4 flex items-center">
               Status
               <button @click="showStatusPopup = true">
@@ -100,8 +100,8 @@
                 </div>
             </td>
             <td class="p-2">
-              <div>
-                  <p v-if="!isEditing(row)">
+              <div >
+                  <p  v-if="!isEditing(row)" class="w-[230px]">
                     {{ row.description }}
                   </p>
                   <input
@@ -148,8 +148,8 @@
                 Edit
               </button>
               <!-- Save button -->
-              <button @click="saveChanges(row)" v-else>Save</button>
-              <button @click="cancelEdit(row)" v-if="isEditing(row)">
+              <button @click="saveChanges(row)" v-else class="text-[green] font-medium">Save</button>
+              <button @click="cancelEdit(row)" v-if="isEditing(row)" class="text-[red] font-medium ">
                 Cancel
               </button>
             </td>
