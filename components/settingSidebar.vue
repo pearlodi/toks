@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100 h-full w-[220px] px-3">
-    <p class="mt-4">Query Settings</p>
+    <p class="mt-4">Query Setting</p>
     <div class="flex items-center mt-4">
       <p class="font-normal text-left text-[10px]">Properties</p>
       <div class="w-4">
