@@ -27,17 +27,17 @@
     </div>
     <div>
       <ul class="flex ml-6">
-        <li class="text-[grey]">File</li>
-        <li class="ml-6  text-[grey]">Home</li>
-        <li class="ml-6  font-bold  border-b-[yellow]">Transform</li>
-        <li class="ml-6  text-[grey]">Add Column</li>
-        <li class="ml-6  text-[grey]">View</li>
-        <li class="ml-6  text-[grey]">Tools</li>
-        <li class="ml-6  text-[grey]">Help</li>
+        <li class="text-[grey] text-sm">File</li>
+        <li class="ml-6  text-[grey] text-sm">Home</li>
+        <li class="ml-6  font-bold text-sm  border-b-[yellow]">Transform</li>
+        <li class="ml-6  text-[grey] text-sm">Add Column</li>
+        <li class="ml-6  text-[grey] text-sm">View</li>
+        <li class="ml-6  text-[grey] text-sm">Tools</li>
+        <li class="ml-6  text-[grey] text-sm">Help</li>
       </ul>
     </div>
-    <div class="ml-8">
-      <p class="font-bold">
+    <div class="ml-12">
+      <p class="font-bold text-base">
         Dataname - MyDataClinic Editor
       </p>
     </div>
