@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between bg-white h-[700px]">
+  <div class="table-comp flex justify-between bg-white h-[700px]">
     <query-sidebar />
 
     <div class="w-[800px] mt-8">
@@ -26,8 +26,8 @@
                 </div>
               </button>
             </th>
-            <th class="text-left text-gray-500 p-4">Name</th>
-            <th class="text-left text-gray-500 p-4 w-[230px]">Description</th>
+            <th class="text-left text-gray-500 p-4">NAME</th>
+            <th class="text-left text-gray-500 p-4 w-[230px]">DESCRIPTION</th>
             <th class="text-left text-gray-500 p-4 flex items-center">
               Status
               <button @click="showStatusPopup = true">
@@ -115,7 +115,7 @@
               <span
                 class="rounded-2xl px-2 py-[1px] font-medium inline-block bg-[#aea6a653]"
                 :class="{
-                  'text-red-500': row.status === 'Due',
+                  'text-red-500 bg-[#ff000032]': row.status === 'Due',
                   'text-green-600 bg-green-100': row.status === 'Paid',
                   'text-[gray]': row.status === 'Inactive',
                   'text-[blue]': row.status === 'Open',
@@ -375,4 +375,6 @@ th {
 td {
   font-size: 13px;
 }
+
+
 </style>
