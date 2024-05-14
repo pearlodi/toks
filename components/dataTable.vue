@@ -101,7 +101,7 @@
             </td>
             <td class="p-2">
               <div >
-                  <p  v-if="!isEditing(row)" class="w-[230px]">
+                  <p  v-if="!isEditing(row)" class="w-[230px] text-[#464F60] textt-[13px] font-normal">
                     {{ row.description }}
                   </p>
                   <input
