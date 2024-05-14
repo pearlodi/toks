@@ -137,7 +137,7 @@
               >
                 {{ formatCurrency(row.balance) }}
               </p>
-              <p>CAD</p>
+                <p class="text-[#687182] text-[11.6px]">CAD</p>
             </td>
             <td class="p-2 text-right pr-8 pl-2 px-2">
                <p class="text-[#464F60] text-[13px]">{{ formatCurrency(row.column7) }}</p>
