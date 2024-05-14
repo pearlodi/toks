@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-100 h-full w-[220px] px-3">
-    <p class="mt-4">Query Setting</p>
+    <p class="mt-4">Query Settings</p>
     <div class="flex items-center mt-4">
-      <p class="font-normal text-left text-[10px]">Properties</p>
+      <p class="font-normal text-left text-[12px]">Properties</p>
       <div class="w-4">
         <img
           src="../assets/images/down-arrow.png"
@@ -23,7 +23,7 @@
       <p class="text-[8px] font-normal text-[green]">All properties</p>
     </div>
     <div class="flex items-center mt-4">
-      <p class="font-medium text-[10px] text-left">Applied Steps</p>
+      <p class="font-medium text-[12px] text-left">Applied Steps</p>
       <div class="w-4">
         <img
           src="../assets/images/down-arrow.png"
