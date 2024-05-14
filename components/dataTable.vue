@@ -115,7 +115,7 @@
               <span
                 class="rounded-2xl px-2 py-[1px] font-medium inline-block bg-[#aea6a653] text-[12px]"
                 :class="{
-                  'text-[##D12953] bg-[#FAF0F3]': row.status === 'Due',
+                  'text-[#D12953] bg-[#FAF0F3]': row.status === 'Due',
                   'text-[#14804A] bg-[#E1FCEF]': row.status === 'Paid',
                   'text-[#5A6376] bg-[#E9EDF5]': row.status === 'Inactive',
                   'text-[#4F5AED] bg-[#F0F1FA]': row.status === 'Open',
