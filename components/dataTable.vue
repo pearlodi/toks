@@ -14,7 +14,7 @@
       >
         <thead class="bg-gray-200 text-gray-700">
           <tr>
-            <th class="text-left text-gray-500 pl-6 pr-2 py-2">
+            <th class="text-left text-gray-500 pl-6 pr-2 py-2 flex items-center">
               #
               <button @click="sortByColumn('id')">
                 <div class="w-3">
@@ -28,7 +28,7 @@
             </th>
             <th class="text-left text-gray-500 p-4">Name</th>
             <th class="text-left text-gray-500 p-4">Description</th>
-            <th class="text-left text-gray-500 p-4">
+            <th class="text-left text-gray-500 p-4 flex items-center">
               Status
               <button @click="showStatusPopup = true">
                 <div class="w-3">
