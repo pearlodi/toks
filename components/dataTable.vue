@@ -14,7 +14,7 @@
       >
         <thead class="bg-gray-200 text-gray-700">
           <tr>
-            <th class="text-left text-gray-500 pl-6 pr-2 py-2 flex items-center">
+            <th class="text-left text-[#464F60] text-[10px] pl-6 pr-2 py-2 flex items-center">
               #
               <button @click="sortByColumn('id')">
                 <div class="w-3">
@@ -26,9 +26,9 @@
                 </div>
               </button>
             </th>
-            <th class="text-left text-[#464F60] p-4">NAME</th>
-            <th class="text-left text-[#464F60] p-4 w-[230px]">DESCRIPTION</th>
-            <th class="text-left text-[#464F60] p-4 flex items-center">
+            <th class="text-left text-[#464F60] p-4 text-[10px]">NAME</th>
+            <th class="text-left text-[#464F60] text-[10px] p-4 w-[230px]">DESCRIPTION</th>
+            <th class="text-left text-[#464F60] text-[10px] p-4 flex items-center">
               STATUS
               <button @click="showStatusPopup = true">
                 <div class="w-3">
@@ -61,9 +61,9 @@
                 </div>
               </div>
             </th>
-            <th class="text-right text-[#464F60] p-4">RATE</th>
-            <th class="text-right text-[#464F60]">BALANCE</th>
-            <th class="text-right text-[#464F60] p-4">DEPOSIT</th>
+            <th class="text-right text-[#464F60] p-4 text-[10px]">RATE</th>
+            <th class="text-right text-[#464F60] text-[10px]">BALANCE</th>
+            <th class="text-right text-[#464F60] p-4 text-[10px]">DEPOSIT</th>
             <th class="text-right text-[#464F60] pr-8 pl-4 px-4"></th>
           </tr>
         </thead>
