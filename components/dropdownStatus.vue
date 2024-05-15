@@ -19,19 +19,12 @@ export default {
   props: {
     statuses: Array,
   },
-  computed: {
-    selectedStatus() {
-      // Logic to determine the selected status
-      // You can store the selected status in the parent component and pass it as a prop
-    },
-  },
   methods: {
     toggleDropdown() {
       this.isOpen = !this.isOpen;
     },
     selectStatus(status) {
       // Logic to handle the selection of a status
-      // You can emit an event to notify the parent component about the selected status
       this.$emit('status-selected', status);
       this.isOpen = false;
     },
